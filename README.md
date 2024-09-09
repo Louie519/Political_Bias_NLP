@@ -30,13 +30,13 @@ The goal of this project was to detect political bias in online content, specifi
 
 ### Reddit Scraping
 
-We collected posts and comments from a variety of political subreddits such as `socialism`, `conservatives`, and `progressive`. The scraped data included:
+We collected posts and comments from a variety of political subreddits such as `socialism`, `conservatives`, and `progressive`. We used [Reddits developer API](https://www.reddit.com/dev/api/) for data collection. The scraped data included:
 - Post titles, content, scores, subreddit names
 - Associated comments
 
 ### News Articles Collection
 
-We used the **Fundus** library to crawl and collect articles from politically biased news platforms, including `The Gateway Pundit`, `Reuters`, and `Wired`. The collected dataset contained:
+We used the [**Fundus**](https://github.com/flairNLP/fundus) library to crawl and collect articles from politically biased news platforms, including `The Gateway Pundit`, `Reuters`, and `Wired`. The collected dataset contained:
 - Article titles and plaintext content
 - Publisher names and AllSides bias ratings (left, center, right)
 
