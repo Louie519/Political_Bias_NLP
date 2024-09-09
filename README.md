@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores detecting political bias using Natural Language Processing (NLP) techniques. We utilized data from Reddit comments on political subreddits and news articles from politically biased platforms. The goal was to classify political bias (left, center, right) in news articles and apply these models to classify Reddit comments by political bias. The project includes the use of multiple models such as Logistic Regression, SVM, and BERT for bias classification, and GPT-based models for text generation.
+This project explores detecting political bias using Natural Language Processing (NLP) techniques. We utilized data from Reddit comments on political subreddits and news articles from politically biased platforms. The goal was to classify political bias (left, center, right) in news articles and apply these models to classify Reddit comments by political bias. The project includes the use of multiple models such as Logistic Regression, ADA boosted classifier, SVM, and BERT for bias classification, and GPT-based models for text generation.
 
 ## Table of Contents
 
